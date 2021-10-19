@@ -1,0 +1,54 @@
+nav{
+    background-color: rgba(255,255,255,0.8);
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, .5);
+
+    font-family: 'Permanent Marker', cursive;
+}
+nav .nav-link{
+    color: #000;
+}
+
+main{
+
+    background-color: rgba(255,255,255,0.8);
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, .5);
+    border-radius: 10px;
+
+    position: absolute;
+    margin: 10% 25%;
+    /* top: 50%;
+    left: 50%;
+    margin-right: -50%; */
+
+    padding: 30px;
+    width: 600px;
+    height: 250px;
+
+    overflow: hidden;
+    text-align: center;
+}
+
+.container h2{
+    padding: 20px;
+}
+
+.text {
+    text-align: center;
+    color: #000;
+    font-family: 'Permanent Marker', cursive;
+
+}
+#btn{
+    padding: 10px 30px;
+    color: #fff;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 10px;
+}
+
+
+.page-footer span{
+    position: absolute;
+    left: 40%;
+    bottom: 30px;
+    color: #000;
+}
