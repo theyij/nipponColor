@@ -8,19 +8,15 @@ let nav = document.querySelectorAll(".chg");
 
 function getRandom(){
     //get random num for selecting colors array
-
     return Math.floor(Math.random()* colors.length);
 }
 
 btn.addEventListener("click", function(){
     //change background with each click
-
-    const randomNum = getRandom();
-
-    document.body.style.backgroundColor = colors[randomNum];
+    let randomNum = getRandom();
     for(let item of nav){
         item.style.color = colors[randomNum];
     }
     color.textContent = colors[randomNum];
-
+    document.body.style.backgroundColor = colors[randomNum];
 })
