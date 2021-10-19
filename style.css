@@ -1,54 +1,43 @@
+:root{
+    --white: rgba(255,255,255,0.8);
+    --black: rgba(0, 0, 0, .7);
+    --font: 'Permanent Marker', cursive;
+}
 nav{
-    background-color: rgba(255,255,255,0.8);
-    box-shadow: 3px 3px 20px rgba(0, 0, 0, .5);
-
-    font-family: 'Permanent Marker', cursive;
+    background-color: var(--white);
+    box-shadow: 3px 3px 20px var(--black);
+    font-family: var(--font);
 }
 nav .nav-link{
-    color: #000;
+    color: var(--black);
 }
-
 main{
-
-    background-color: rgba(255,255,255,0.8);
-    box-shadow: 3px 3px 20px rgba(0, 0, 0, .5);
+    background-color: var(--white);
+    box-shadow: 3px 3px 20px var(--black);
     border-radius: 10px;
-
-    position: absolute;
-    margin: 10% 25%;
-    /* top: 50%;
-    left: 50%;
-    margin-right: -50%; */
-
+    margin: 200px auto;
     padding: 30px;
     width: 600px;
     height: 250px;
-
-    overflow: hidden;
     text-align: center;
 }
-
 .container h2{
-    padding: 20px;
+    padding: 10px 0 40px 0;
 }
-
 .text {
-    text-align: center;
-    color: #000;
+    color: var(--black);
     font-family: 'Permanent Marker', cursive;
-
+    text-align: center;
 }
 #btn{
-    padding: 10px 30px;
-    color: #fff;
-    background-color: rgba(0,0,0,0.8);
+    color: var(--white);
+    background-color: var(--black);
+    font-weight: bold;
+    padding: 10px 50px;
+    box-shadow: 1px 1px 5px var(--black);
     border-radius: 10px;
 }
-
-
 .page-footer span{
-    position: absolute;
-    left: 40%;
-    bottom: 30px;
-    color: #000;
+    color: var(--black);
+    margin: auto;
 }

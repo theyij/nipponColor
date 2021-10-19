@@ -13,10 +13,10 @@ function getRandom(){
 
 btn.addEventListener("click", function(){
     //change background with each click
-    let randomNum = getRandom();
+    let randomNum = colors[getRandom()];
     for(let item of nav){
-        item.style.color = colors[randomNum];
+        item.style.color = randomNum;
     }
-    color.textContent = colors[randomNum];
-    document.body.style.backgroundColor = colors[randomNum];
+    color.textContent = randomNum;
+    document.body.style.backgroundColor = randomNum;    btn.style.backgroundColor = randomNum;
 })
